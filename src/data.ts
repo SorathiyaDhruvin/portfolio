@@ -72,7 +72,7 @@ export const projects = [
       "An AI-powered lead automation platform that helps businesses manage, score, and convert leads using intelligent insights and automated workflows.",
     tech: ["React","Typescript", "Express", "MySQL", "OpenAI API", "Tailwind CSS"],
     tags: ["Web App", "Full Stack", "AI", "SaaS"],
-    live: "https://AI-Lead-Automation-Software.replit.app",
+    live: "https://ai-lead-automation-software.vercel.app/",
     repo: "https://github.com/SorathiyaDhruvin/AI-Lead-Automation-Software",
     image: "/AI Lead Automation Software.png",
   },
