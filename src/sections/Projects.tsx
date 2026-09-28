@@ -30,10 +30,10 @@ export default function Projects() {
             <button
               key={cat}
               onClick={() => setActiveTab(cat)}
-              className={`relative rounded-full px-5 py-2 text-sm font-medium transition-all duration-300 ${
+              className={`relative rounded-full px-5 py-2 text-sm transition-all duration-300 ${
                 isActive
-                  ? "bg-ice text-navy-dark shadow-glow font-semibold"
-                  : "border border-navy-border bg-navy-card/60 text-ink-muted hover:border-ice/40 hover:text-ink"
+                  ? "bg-ice text-black font-bold shadow-glow"
+                  : "border border-navy-border bg-navy-card/60 text-ink-muted hover:border-ice/40 hover:text-ink font-medium"
               }`}
             >
               {cat}
@@ -69,7 +69,7 @@ export default function Projects() {
                 )}
 
                 <div className="flex items-center justify-between">
-                  <span className="rounded-full border border-ice/40 bg-ice/5 px-3 py-1 text-xs font-medium text-ice">
+                  <span className="rounded-full border border-ice/40 bg-ice/10 px-3 py-1 text-xs font-semibold text-ice">
                     {p.category}
                   </span>
                   <div className="flex items-center gap-2">
@@ -79,7 +79,7 @@ export default function Projects() {
                       rel="noreferrer"
                       title="View GitHub Repository"
                       aria-label={`${p.title} source code`}
-                      className="flex items-center gap-1.5 rounded-lg border border-navy-border bg-navy-card px-3 py-1.5 text-xs text-ink-muted transition-colors hover:border-ice/40 hover:text-ice"
+                      className="flex items-center gap-1.5 rounded-lg border border-navy-border bg-navy-card px-3 py-1.5 text-xs font-semibold text-ink-muted transition-all hover:border-ice/50 hover:text-ink"
                     >
                       <Github size={15} />
                       <span>Code</span>
@@ -91,9 +91,9 @@ export default function Projects() {
                         rel="noreferrer"
                         title="View Live Site"
                         aria-label={`${p.title} live demo`}
-                        className="flex items-center gap-1.5 rounded-lg border border-ice/40 bg-ice/10 px-3 py-1.5 text-xs text-ice transition-colors hover:bg-ice hover:text-navy-dark font-medium"
+                        className="flex items-center gap-1.5 rounded-lg bg-ice px-3.5 py-1.5 text-xs font-bold text-black shadow-glow transition-all hover:brightness-110 hover:scale-[1.02] active:scale-95"
                       >
-                        <ExternalLink size={15} />
+                        <ExternalLink size={15} className="stroke-[2.5]" />
                         <span>Live Demo</span>
                       </a>
                     )}
