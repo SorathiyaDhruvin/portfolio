@@ -32,7 +32,7 @@ export const roles = ["Software Engineer", "Full Stack Developer"]
 
 export const stats = [
   { value: 300, suffix: "+", label: "DSA Problems Solved" },
-  { value: 3, suffix: "+", label: "Projects Built" },
+  { value: 7, suffix: "+", label: "Projects Built" },
   { value: 5, suffix: "+", label: "Certifications" },
   { value: 2, suffix: "", label: "Internships Completed" },
 ]
@@ -40,10 +40,10 @@ export const stats = [
 export const interests = ["AI/ML", "Full Stack", "AR/VR", "Android", "DSA", "Open Source"]
 
 export const whatIDo = [
-  "Full-stack web apps with React.js, Node.js, MongoDB",
+  "Full-stack web apps with React.js, Node.js, Spring Boot, MongoDB, PostgreSQL",
   "AI-powered tools using OpenAI API",
   "AR/VR experiences with Unity and 360° tech",
-  "Android apps with Kotlin",
+  "Android apps with Kotlin and Java Core Systems",
 ]
 
 export const skillGroups = [
@@ -55,11 +55,22 @@ export const skillGroups = [
 
 export const projects = [
   {
+    title: "Job Application & Recruitment System",
+    category: "Full Stack App",
+    description:
+      "An enterprise-grade recruitment SaaS platform engineered with Java 21, Spring Boot 3, React 18, and PostgreSQL. Features role-based access control (JWT), a 6-stage applicant tracking pipeline, and secure PDF resume management.",
+    tech: ["React 18", "Spring Boot 3", "Java 21", "PostgreSQL", "Spring Security", "JWT"],
+    tags: ["Full Stack", "Spring Boot", "React", "SaaS"],
+    live: "https://job-application-recruitment-managem.vercel.app/",
+    repo: "https://github.com/SorathiyaDhruvin/Job-Application-Recruitment-Management-System",
+    image: "/job_recruitment_system.jpg",
+  },
+  {
     title: "360 Indoor Campus Navigation",
     category: "Website",
     description:
       "An interactive 360° campus navigation platform featuring a virtual 3D campus tour, interactive indoor maps, seamless 360° transitions between buildings, and a modern, responsive interface built with HTML, CSS, and JavaScript.",
-    tech: ["HTML", "CSS", "JavaScript","JSON"],
+    tech: ["HTML", "CSS", "JavaScript", "JSON"],
     tags: ["Web", "Full Stack"],
     live: "https://indoor-campus-navigation.vercel.app/",
     repo: "https://github.com/SorathiyaDhruvin/Indoor-Campus-Navigation",
@@ -70,18 +81,51 @@ export const projects = [
     category: "Web App",
     description:
       "An AI-powered lead automation platform that helps businesses manage, score, and convert leads using intelligent insights and automated workflows.",
-    tech: ["React","Typescript", "Express", "MySQL", "OpenAI API", "Tailwind CSS"],
+    tech: ["React", "TypeScript", "Express", "MySQL", "OpenAI API", "Tailwind CSS"],
     tags: ["Web App", "Full Stack", "AI", "SaaS"],
     live: "https://ai-lead-automation-software.vercel.app/",
     repo: "https://github.com/SorathiyaDhruvin/AI-Lead-Automation-Software",
     image: "/AI Lead Automation Software.png",
   },
   {
+    title: "Bank Management System",
+    category: "Java System",
+    description:
+      "A robust banking application built in Java using Object-Oriented Programming (OOP) concepts. Supports account creation, deposit/withdrawal transactions, balance inquiry, inter-account transfers, and account search.",
+    tech: ["Java", "OOP", "Data Structures", "ArrayList", "CLI"],
+    tags: ["Java", "OOP", "Console"],
+    live: "https://github.com/SorathiyaDhruvin/Bank-Management-System",
+    repo: "https://github.com/SorathiyaDhruvin/Bank-Management-System",
+    image: "/bank_management_system.jpg",
+  },
+  {
+    title: "Student Management System",
+    category: "Java System",
+    description:
+      "An object-oriented Java application for student records administration. Provides complete CRUD operations, student searching by ID/name, academic tracking, and details updating.",
+    tech: ["Java", "OOP", "CRUD Operations", "ArrayList", "CLI"],
+    tags: ["Java", "OOP", "Console"],
+    live: "https://github.com/SorathiyaDhruvin/Student-Management-System",
+    repo: "https://github.com/SorathiyaDhruvin/Student-Management-System",
+    image: "/student_management_system.jpg",
+  },
+  {
+    title: "Library Management System",
+    category: "Java System",
+    description:
+      "A comprehensive library software system in Java for managing book inventories, member registrations, issue/return operations, and real-time inventory tracking.",
+    tech: ["Java", "OOP", "Data Structures", "ArrayList", "CLI"],
+    tags: ["Java", "OOP", "Console"],
+    live: "https://github.com/SorathiyaDhruvin/Library-Management-System",
+    repo: "https://github.com/SorathiyaDhruvin/Library-Management-System",
+    image: "/library_management_system.jpg",
+  },
+  {
     title: "Quiz Android App",
     category: "Android",
     description:
       "An interactive quiz application with a clean splash experience, offering question-answer cards, show-answer functionality, and smooth navigation in a simple, user-friendly UI.",
-    tech: ["Kotlin", "Android Studio", "UI/UX", "Previous/Next", "Add/Edit/Delete"],
+    tech: ["Kotlin", "Android Studio", "UI/UX", "Mobile"],
     tags: ["Android", "Kotlin", "UI/UX"],
     live: "https://github.com/SorathiyaDhruvin/Flashcard-Quiz",
     repo: "https://github.com/SorathiyaDhruvin/Flashcard-Quiz",
