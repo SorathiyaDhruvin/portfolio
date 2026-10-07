@@ -137,7 +137,7 @@ export const experience = [
   {
     role: "AR / VR Internship",
     company: "Parul University",
-    period: "Nov 2025 – Sep 2026",
+    period: "Nov 2025 – Oct 2026",
     type: "Internship",
     description: "Building immersive AR/VR experiences and campus navigation concepts.",
   },
