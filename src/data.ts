@@ -14,7 +14,7 @@ export const profile = {
   github: "https://github.com/SorathiyaDhruvin",
   linkedin: "https://linkedin.com/in/sorathiya-dhruvin",
   resume: "/SoftwareEngineer.pdf",
-  photo: "/ProfilePhoto.jpeg"
+  photo: "/title-img.png"
 }
 
 export const navLinks = [
