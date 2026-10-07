@@ -13,7 +13,7 @@ export const profile = {
   location: "Vadodara, Gujarat, India",
   github: "https://github.com/SorathiyaDhruvin",
   linkedin: "https://linkedin.com/in/sorathiya-dhruvin",
-  resume: "/Sorathiya_Dhruvin_Resume.pdf",
+  resume: "/SoftwareEngineer.pdf",
   photo: "/ProfilePhoto.jpeg"
 }
 
