@@ -14,7 +14,7 @@ export default function About() {
             <div className="absolute -left-3 -top-3 h-16 w-16 rounded-tl-2xl border-l-2 border-t-2 border-ice" />
             <div className="absolute -bottom-3 -right-3 h-16 w-16 rounded-br-2xl border-b-2 border-r-2 border-ice" />
             <img
-              src={profile.photo || "/placeholder.svg"}
+              src={profile.photo || "/assets/placeholder.svg"}
               alt={`${profile.name} portrait`}
               className="h-80 w-72 rounded-2xl object-cover"
             />

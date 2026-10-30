@@ -14,7 +14,7 @@ export const profile = {
   github: "https://github.com/SorathiyaDhruvin",
   linkedin: "https://linkedin.com/in/sorathiya-dhruvin",
   resume: "/SoftwareEngineer.pdf",
-  photo: "/title-img.png"
+  photo: "/assets/title-img.png"
 }
 
 export const navLinks = [
@@ -63,7 +63,7 @@ export const projects = [
     tags: ["Full Stack", "Spring Boot", "React", "SaaS"],
     live: "https://job-application-recruitment-managem.vercel.app/",
     repo: "https://github.com/SorathiyaDhruvin/Job-Application-Recruitment-Management-System",
-    image: "/job_recruitment_system.jpg",
+    image: "/assets/job_recruitment_system.jpg",
   },
   {
     title: "360 Indoor Campus Navigation",
@@ -74,7 +74,7 @@ export const projects = [
     tags: ["Web", "Full Stack"],
     live: "https://indoor-campus-navigation.vercel.app/",
     repo: "https://github.com/SorathiyaDhruvin/Indoor-Campus-Navigation",
-    image: "/Indoor Campus Navigation.png",
+    image: "/assets/Indoor Campus Navigation.png",
   },
   {
     title: "AI Lead Automation Software",
@@ -85,7 +85,7 @@ export const projects = [
     tags: ["Web App", "Full Stack", "AI", "SaaS"],
     live: "https://ai-lead-automation-software.vercel.app/",
     repo: "https://github.com/SorathiyaDhruvin/AI-Lead-Automation-Software",
-    image: "/AI Lead Automation Software.png",
+    image: "/assets/AI Lead Automation Software.png",
   },
   {
     title: "Bank Management System",
@@ -96,7 +96,7 @@ export const projects = [
     tags: ["Java", "OOP", "Console"],
     live: "https://github.com/SorathiyaDhruvin/Bank-Management-System",
     repo: "https://github.com/SorathiyaDhruvin/Bank-Management-System",
-    image: "/bank_management_system.jpg",
+    image: "/assets/bank_management_system.jpg",
   },
   {
     title: "Student Management System",
@@ -107,7 +107,7 @@ export const projects = [
     tags: ["Java", "OOP", "Console"],
     live: "https://github.com/SorathiyaDhruvin/Student-Management-System",
     repo: "https://github.com/SorathiyaDhruvin/Student-Management-System",
-    image: "/student_management_system.jpg",
+    image: "/assets/student_management_system.jpg",
   },
   {
     title: "Library Management System",
@@ -118,7 +118,7 @@ export const projects = [
     tags: ["Java", "OOP", "Console"],
     live: "https://github.com/SorathiyaDhruvin/Library-Management-System",
     repo: "https://github.com/SorathiyaDhruvin/Library-Management-System",
-    image: "/library_management_system.jpg",
+    image: "/assets/library_management_system.jpg",
   },
   {
     title: "Quiz Android App",

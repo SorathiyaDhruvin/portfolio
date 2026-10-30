@@ -131,7 +131,7 @@ export default function Hero() {
               <div className="absolute -inset-3 animate-spin-slow rounded-full bg-gradient-to-tr from-ice via-transparent to-ice-blue opacity-60 blur-md" />
               <div className="relative rounded-full border-2 border-ice/50 p-2 shadow-glow-lg">
                 <img
-                  src={profile.photo || "/placeholder.svg"}
+                  src={profile.photo || "/assets/placeholder.svg"}
                   alt={`Portrait of ${profile.name}`}
                   className="h-40 w-40 rounded-full object-cover sm:h-48 sm:w-48"
                 />

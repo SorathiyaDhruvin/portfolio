@@ -167,10 +167,10 @@ All site data is stored in `src/data.ts`. Modify the exported constants:
 - **`experience` & `education`**: Professional milestones and academic history.
 - **`certifications`**: Issued credentials and image/certificate links.
 
-### 2. Replace Static Media (`public/`)
-- Place your headshot at `public/ProfilePhoto.jpeg`.
-- Place your resume PDF at `public/Sorathiya_Dhruvin_Resume.pdf`.
-- Add project screenshots and certificate images directly to `public/` or `public/certificates/`.
+### 2. Replace Static Media (`public/assets/`)
+- Place your headshot at `public/assets/title-img.png` (or `public/assets/ProfilePhoto.jpeg`).
+- Place your resume PDF at `public/SoftwareEngineer.pdf`.
+- Add project screenshots directly to `public/assets/` and certificate images to `public/certificates/`.
 
 ### 3. Customize Colors & Themes (`tailwind.config.js` & `src/index.css`)
 - Colors (`navy`, `ice`, `ink`) are mapped via CSS variables in `src/index.css` for instant theme customization.
