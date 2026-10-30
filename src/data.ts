@@ -1,4 +1,4 @@
-/**
+﻿/**
  * ============================================================
  *  EDIT YOUR PERSONAL DETAILS HERE
  *  Fields marked  // TODO: REPLACE  are placeholders.
@@ -42,7 +42,7 @@ export const interests = ["AI/ML", "Full Stack", "AR/VR", "Android", "DSA", "Ope
 export const whatIDo = [
   "Full-stack web apps with React.js, Node.js, Spring Boot, MongoDB, PostgreSQL",
   "AI-powered tools using OpenAI API",
-  "AR/VR experiences with Unity and 360° tech",
+  "AR/VR experiences with Unity and 360Â° tech",
   "Android apps with Kotlin and Java Core Systems",
 ]
 
@@ -69,7 +69,7 @@ export const projects = [
     title: "360 Indoor Campus Navigation",
     category: "Website",
     description:
-      "An interactive 360° campus navigation platform featuring a virtual 3D campus tour, interactive indoor maps, seamless 360° transitions between buildings, and a modern, responsive interface built with HTML, CSS, and JavaScript.",
+      "An interactive 360Â° campus navigation platform featuring a virtual 3D campus tour, interactive indoor maps, seamless 360Â° transitions between buildings, and a modern, responsive interface built with HTML, CSS, and JavaScript.",
     tech: ["HTML", "CSS", "JavaScript", "JSON"],
     tags: ["Web", "Full Stack"],
     live: "https://indoor-campus-navigation.vercel.app/",
@@ -86,6 +86,17 @@ export const projects = [
     live: "https://ai-lead-automation-software.vercel.app/",
     repo: "https://github.com/SorathiyaDhruvin/AI-Lead-Automation-Software",
     image: "/assets/AI Lead Automation Software.png",
+  },
+  {
+    title: "AI-Resume-Screening-and-Job-Maching-System",
+    category: "Web App",
+    description:
+      "An intelligent AI-powered resume screening and candidate matching system that analyzes resumes against job descriptions using semantic embeddings, automated scoring, and NLP techniques.",
+    tech: ["Python", "FastAPI", "Pandas", "Scikit-learn", "Sentence Transformers", "PostgreSQL"],
+    tags: ["AI", "NLP", "Python", "FastAPI"],
+    live: "https://ai-resume-screening-and-job-maching.vercel.app/",
+    repo: "https://github.com/SorathiyaDhruvin/AI-Resume-Screening-and-Job-Maching-System",
+    image: "/assets/library_management_system.jpg",
   },
   {
     title: "Bank Management System",
@@ -137,14 +148,14 @@ export const experience = [
   {
     role: "AR / VR Internship",
     company: "Parul University",
-    period: "Nov 2025 – Oct 2026",
+    period: "Nov 2025 â€“ Oct 2026",
     type: "Internship",
     description: "Building immersive AR/VR experiences and campus navigation concepts.",
   },
   {
     role: "CodeAlpha Internship",
     company: "Remote",
-    period: "Sep 2025 – Oct 2025",
+    period: "Sep 2025 â€“ Oct 2025",
     type: "Remote Internship",
     description: "Worked on small projects using App technologies.",
   },
@@ -154,13 +165,13 @@ export const education = [
   {
     degree: "Bachelor of Technology (B.Tech)",
     school: "Parul University, Vadodara, Gujarat",
-    period: "2023 – Present",
+    period: "2023 â€“ Present",
     detail: "Learning software development, databases, and AI.",
   },
   {
     degree: "Higher Secondary Education (12th)",
     school: "Jamnagar, Gujarat",
-    period: "2022 – 2023",
+    period: "2022 â€“ 2023",
     detail: "Focus on Physics, Mathematics, and Computer Science.",
   },
 ]
@@ -195,7 +206,7 @@ export const codingProfiles = [
     url: "https://www.codechef.com/users/dhruvin_2005",
     stats: [
       { label: "Rating", value: "Unrated" },
-      { label: "Stars", value: "1★" },
+      { label: "Stars", value: "1â˜…" },
       { label: "Solved", value: "211" },
       { label: "Contests", value: "0" },
     ],
@@ -207,10 +218,10 @@ export const codingProfiles = [
     accent: "#2ec866",
     url: "https://www.hackerrank.com/profile/DhruvinSorathiya",
     stats: [
-      { label: "C Language", value: "5★" },
-      { label: "C++", value: "3★" },
-      { label: "Java", value: "3★" },
-      { label: "Python", value: "2★" },
+      { label: "C Language", value: "5â˜…" },
+      { label: "C++", value: "3â˜…" },
+      { label: "Java", value: "3â˜…" },
+      { label: "Python", value: "2â˜…" },
     ],
     note: "Problem Solving & Java (Basic) Certified",
   },
